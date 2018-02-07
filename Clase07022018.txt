@@ -1,0 +1,16 @@
+Calculadora en Python
+Imprimir matriz en python 
+Validar como plalindromo 
+
+git clone https://github.com/emilianoNM/Clase2018Tecnicas.git
+git commit 
+git add 
+git pull 
+git push 
+
+
+Que pida un número del 1 al 5 y diga si es primo o no.
+Que pida un número y diga si es par o impar.
+Que pida un número del 1 al 7 y diga el día de la semana correspondiente.
+
+http://programavideojuegos.blogspot.mx/2013/05/25-ejercicios-resueltos-de-estructuras.html
