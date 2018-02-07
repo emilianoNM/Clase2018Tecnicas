@@ -43,6 +43,7 @@ class Profesor(Persona):
     def asignarTarea(self,alumno,tipo):
         tarea1=Tareas(alumno,self,tipo)
         alumno.tareas.append(tarea1)
+        
         print("tarea asignada ")
 
 class Tareas():
@@ -51,6 +52,7 @@ class Tareas():
         self.alumno=alumno
         self.profesor=profesor
         self.calificacion=0
+        self.tipo=tipo
         print ("Tarea ")
     
     def setCalificacion(self,calificacion):
@@ -59,5 +61,7 @@ class Tareas():
             self.calificiacion=calificacion
         else:
             print ("Error calinficacion invalidad")
+    def imprimirTarea(self):
+        print(str(self.alumno),str(self.profesor),self.tipo,self.calificacion)
         
 

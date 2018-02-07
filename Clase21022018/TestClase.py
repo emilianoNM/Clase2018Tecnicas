@@ -12,4 +12,5 @@ print(Emiliano.tieneHambre())
 
 Emiliano.asignarTarea(Oliver,"Matematicas")
 
-Oliver.tareas[0].setCalificacion(12) 
+Oliver.tareas[0].setCalificacion(8) 
+Oliver.tareas[0].imprimirTarea()
