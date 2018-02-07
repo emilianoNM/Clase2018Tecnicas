@@ -1,1 +1,103 @@
 Notas
+Programas 
+  Crear un zologico con 10 especies 3 atributos cada especie
+   con contructor
+
+ testEspecie.py
+   Crear el objeto 
+   Modificar atributos 
+   imprimir atributos 
+ 
+  Crear un cuarto de labado con 10 objetos y 3 atributos
+   con contructor
+  Crear una biblioteca con 10 objetos y 3 atributos
+   con contructor
+
+Para no venir 
+  Crear un zologico con 10 especies 3 atributos cada especie
+     cinco metodos con 3 clases heredas para cada espécie 
+     con contructor
+  Crear un cuarto de labado con 10 objetos y 3 atributos
+     cinco metodos con 3 clases heredas para cada espécie
+    
+  Crear una biblioteca con 10 objetos y 3 atributos
+     cinco metodos con 3 clases heredas para cada espécie
+
+
+
+
+import POO
+>>> animal1=POO.Animal()
+>>> animal1.organos
+>>> animal1.estado
+>>> animal1.estado=vivo
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'vivo' is not defined
+>>> animal1.estado="vivo"
+>>> animal1.estado
+'vivo'
+>>> animal1.organos=['corazon',"pulmones","estomago"]
+>>> animal1.organos
+['corazon', 'pulmones', 'estomago']
+>>> 
+
+
+Python 2.7.14 (default, Sep 23 2017, 22:06:14) 
+[GCC 7.2.0] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import POO
+>>> garfiel=POO.Gato()
+Creando Objeto
+>>> garfiel.estado
+'vivo'
+>>> garfiel=POO.Gato("moribundo")
+Creando Objeto
+>>> garfiel.estado'moribundo'
+>>> felix=POO.Gato("feliz")Creando Objeto
+>>> garfiel.estado
+'moribundo'
+>>> felix.estado
+'feliz'
+>>> garfiel.organos
+['Corazon', 'Pulmones', 'Estomago']
+>>> garfiel.organos.del(0)
+  File "<stdin>", line 1
+    garfiel.organos.del(0)
+                      ^
+SyntaxError: invalid syntax
+>>> garfiel.organos(0)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'list' object is not callable
+>>> garfiel.organos[0]
+'Corazon'
+>>> del garfiel.organos[0]
+>>> garfiel.organos
+['Pulmones', 'Estomago']
+>>> felix.estado
+'feliz'
+>>> felix.organos
+['Pulmones', 'Estomago']
+>>> silbestre=POO.Gato()Creando Objeto
+>>> donGato=POO.Gato()
+Creando Objeto
+>>> silbestre
+<POO.Gato instance at 0x7fa808ae7cb0>
+>>> silbestre.estado
+'vivo'
+>>> silbestre.estado="muerto"
+>>> silbestre.estado
+'muerto'
+>>> felix.estado
+'feliz'
+>>> silbestre.organos
+['Pulmones', 'Estomago']
+>>> dongato.estado
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'dongato' is not defined
+>>> donGato.estado
+'vivo'
+>>> 
+
