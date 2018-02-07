@@ -1,0 +1,45 @@
+Tres programas OBligatiorios 
+Una actividad que relaciones tres objetos donde se generen 3 ecepciones 
+Ejemplo 
+    Combrar un cheque 
+      Objectos 
+          Cajero 
+          Cheque 
+          Cliente 
+     Metodos 
+     Atributos 
+	cheque 
+	  Firma 
+	  monto 
+	  persona que expide el cheque 
+          persona beneficiario
+
+        Cajero -> Persona  
+	   ....
+	   ....
+	   ...
+           Contructor 
+		
+	   Metodo
+            
+            Saludo
+	    Respuestos 
+
+ 	Cliente -> Persona
+	  ....
+          ....
+          ....
+          Constructor
+           Metodo 
+             Preguntas
+             
+   
+
+     Ecepciones 
+	Cheque no tiene fondos 
+        cheque sin firma 
+        Cheque datos erroneos 
+        Cheque le falto la fecha 
+
+Clase que test,py 
+
