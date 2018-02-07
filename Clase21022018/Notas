@@ -1,0 +1,35 @@
+Implementar el metodo que imprima la tarea con el alumno el profesor 
+y la calificación
+
+Programas para  no venir 
+
+  Clase Horario
+     cinco atributos 
+     3 metodos
+      modificar horario
+      agregar clase 
+      Agregar el tiempo 
+ 
+
+  Clase Clase  
+     10 atributos 
+    4 metodos 
+    agregar profesor 
+   agregar alumnos 
+   agregar salon 
+   cambiar horario
+
+Clase que Escuela 
+    3 atributos 
+    lista Salones
+    lista de Profesores
+    lista de alumnos 
+    lista de materias 
+    metodos    
+     generar horario 
+     validar horario 
+     modifar horario 
+     agregar materias
+	agregar profesores
+	agregar alumnos 
+ 

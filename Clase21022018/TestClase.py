@@ -9,3 +9,7 @@ print(type(Oliver))
 Emiliano=Clase.Profesor("Emiliano",29,1.75)
 
 print(Emiliano.tieneHambre())
+
+Emiliano.asignarTarea(Oliver,"Matematicas")
+
+Oliver.tareas[0].setCalificacion(12) 
