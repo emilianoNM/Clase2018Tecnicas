@@ -1,0 +1,32 @@
+Notas
+Programas 
+  Crear un zologico con 10 especies 3 atributos cada especie
+   con contructor
+   3 metodos son acciones que realiza el objeto 
+
+ testEspecie.py
+   Crear el objeto 
+   Modificar atributos 
+   imprimir atributos 
+ 
+  Crear un cuarto de labado con 10 objetos y 3 atributos
+   con contructor
+     3 metodos son acciones que realiza el objeto 
+  Crear una biblioteca con 10 objetos y 3 atributos
+   con contructor
+     3 metodos son acciones que realiza el objeto 
+
+Para no venir 
+  Crear un zologico con 10 especies 3 atributos cada especie
+     cinco metodos con 3 clases heredas para cada espécie 
+     con contructor
+         10 metodos son acciones que realiza el objeto 
+  Crear un cuarto de labado con 10 objetos y 3 atributos
+     cinco metodos con 3 clases heredas para cada espécie
+          10 metodos son acciones que realiza el objeto 
+  Crear una biblioteca con 10 objetos y 3 atributos
+     cinco metodos con 3 clases heredas para cada espécie
+        10 metodos son acciones que realiza el objeto 
+     
+  Agregar una clase de agregacion para las clases que definan
+
