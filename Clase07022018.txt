@@ -3,10 +3,12 @@ Imprimir matriz en python
 Validar como plalindromo 
 
 git clone https://github.com/emilianoNM/Clase2018Tecnicas.git
-git commit 
+
 git add 
+git commit
+git push  
 git pull 
-git push 
+
 
 
 Que pida un número del 1 al 5 y diga si es primo o no.
