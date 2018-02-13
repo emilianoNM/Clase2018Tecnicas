@@ -1,26 +1,16 @@
-print("===Imprimir una matriz===")
+print "Imprimir una matriz\n"
+print "Tecnicas de programacion\n"
+matriz=[]
 
 
-a=0
-b=0
+filas = int(raw_input("Cantidad de Filas\n"))
+columnas = int(raw_input("Cantidad de Columnas\n"))
 
-print('\f Imprimir matriz ')
+for i in range(filas):
+    matriz.append([0]*columnas)
 
-row=int(input("\n\nNúmero de filas: "))
-column=int(input("\nNúmeo de columnas: "))
+for f in range(filas):
+    for  c in range(columnas):
+        matriz[f][c] = int(raw_input("Elementos de la matriz %d,%d\n"%(f,c)))
 
-matriz=[None]*row
-for a in range(row):
-  matriz[a]=[None]*column
-  pass
-
-for a in range(row):
-  for b in range(column):
-    matriz[a][b]=0
-  
-for a in range(row):
-  print("\n")
-  for b in range(column):
-    print('%f\t' %(matriz[a][b]), end="")
-    
-print("\n")
+print (matriz)

@@ -1,50 +1,25 @@
-print("===Identificador de palindromos===")
-class Cadenas:
+print ("Palindromo\n")
+print ("Tecnicas de programacion\n")
+print ("Este programa le dice si una secuencia de numeros, frase o palabra\n")
+print ("es palindroma o no, osea, que significa lo mismo si se lee de\n ")
+print ("derecha a izquierda y viceversa\n")
 
-    def __init__ (self, cad1):
+palabra1 = raw_input("Ingrese la palabra\n\n")
 
-        self.cad1=cad1
+#.lower hace que todas las letras se hagan minuculas
+#.replace quita los espacio y junta la frase
+palabra1 = palabra1.lower().replace(' ','')
 
- 
+#invirte la palabra con [::-1]
+palabra2 = palabra1[::-1]
 
-    def Pal(self):
 
-        cad1 = self.cad1
 
-        c,i,nom,cad,x = 0,0,'','',''
+if palabra2 == palabra1:
+    print "La frase que ingreso es palindroma"
 
-        i = len(cad1)
 
-        nom = cad1.lower()
+else:
+    print"La frase que ingreso no es palindroma"
 
-        while i != c:
 
-            for x in nom:
-
-                cad = x + cad
-
-                c=c+1
-
-            if nom==cad:
-
-                #print (cad1, " Es Palindromo")
-
-                return str(cad1 + " Es Palindromo")
-
-            else:
-
-                #print (cad1, " No es Palindromo")
-
-                return str(cad1 + " No es Palindromo")
-
- 
-
-cad1 = input('Dame una palabra: ')
-
-op1=Cadenas(cad1)
-
- 
-
-#op1.Pal()#Impresion de la funcion
-
-print(op1.Pal())
