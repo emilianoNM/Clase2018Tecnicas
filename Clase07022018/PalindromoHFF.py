@@ -1,6 +1,6 @@
 print("Identificador de palindromos")
 
-frase = input("Por favor ingrese una frase: ")
+frase = raw_input("Por favor ingrese una frase: ")
 
 frase_sin_espacios = frase.replace(" ","")
 
