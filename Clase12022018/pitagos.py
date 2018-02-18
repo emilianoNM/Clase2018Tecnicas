@@ -1,0 +1,20 @@
+#programa crado por Hernandez Quintana Luis Eduardo
+import time
+import math
+print ("************************")
+print ("Este programa es para calcular la hipotenusa a traves de sus catetos")
+print ("************************")
+time.sleep(5)
+input("Pulse enter para continuar")
+print ("\n\nIngresa el primer valor del cateto:")
+print ("************************")
+a = float (input(""))
+time.sleep(2)
+print ("Ingresa el segundo valor del siguiente cateto:")
+print ("*************************")
+o = float (input(""))
+h= (o ** 2 + a**2) ** (1/2)
+time.sleep(2)
+print ("El valor calculado de la hipotenusa es :")
+print ("***************************")
+print (h)
