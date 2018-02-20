@@ -1,0 +1,73 @@
+  
+import biblioteca
+  
+Libro1=biblioteca.Mibiblioteca("Mobie Dick","Leyenda",300)
+print("El titulo del libro es:",Libro1.Titulo)
+print("El genero es:",Libro1.Genero)
+print("Tiene:",Libro1.Paginas,"paginas")
+print("")
+print("")
+
+Libro2=biblioteca.Mibiblioteca("El hombre de acero","cuento",200)
+print("El titulo del libro es:",Libro2.Titulo)
+print("El genero es:",Libro2.Genero)
+print("Tiene:",Libro2.Paginas,"paginas")
+print("")
+print("")
+
+Libro3=biblioteca.Mibiblioteca("La bruja de Blair","Suspenso",350)
+print("El titulo del libro es:",Libro3.Titulo)
+print("El genero es:",Libro3.Genero)
+print("Tiene:",Libro3.Paginas,"paginas")
+print("")
+print("")
+
+Libro4=biblioteca.Mibiblioteca("Gigantes de Acero","Ciencia Ficcion",100)
+print("El titulo del libro es:",Libro4.Titulo)
+print("El genero es:",Libro4.Genero)
+print("Tiene:",Libro4.Paginas,"paginas")
+print("")
+print("")
+
+Libro5=biblioteca.Mibiblioteca("El perro cojo","cuento",50)
+print("El titulo del libro es:",Libro5.Titulo)
+print("El genero es:",Libro5.Genero)
+print("Tiene:",Libro5.Paginas,"paginas")
+print("")
+print("")
+
+Libro6=biblioteca.Mibiblioteca("Shrek 2","Fantasia",240)
+print("El titulo del libro es:",Libro6.Titulo)
+print("El genero es:",Libro6.Genero)
+print("Tiene:",Libro6.Paginas,"paginas")
+print("")
+print("")
+
+Libro7=biblioteca.Mibiblioteca("El gato con botas","Aventura, Fantasia",120)
+print("El titulo del libro es:",Libro7.Titulo)
+print("El genero es:",Libro7.Genero)
+print("Tiene:",Libro7.Paginas,"paginas")
+print("")
+print("")
+
+Libro8=biblioteca.Mibiblioteca("Maze Runners","Ciencia Ficcion",340)
+print("El titulo del libro es:",Libro8.Titulo)
+print("El genero es:",Libro8.Genero)
+print("Tiene:",Libro8.Paginas,"paginas")
+print("")
+print("")
+
+Libro9=biblioteca.Mibiblioteca("Andromeda","Aventura",300)
+print("El titulo del libro es:",Libro9.Titulo)
+print("El genero es:",Libro9.Genero)
+print("Tiene:",Libro9.Paginas,"paginas")
+print("")
+print("")
+
+Libro10=biblioteca.Mibiblioteca("Mobie Dick 2","Leyenda",380)
+print("El titulo del libro es:",Libro10.Titulo)
+print("El genero es:",Libro10.Genero)
+print("Tiene:",Libro10.Paginas,"paginas")
+print("")
+print("")
+
