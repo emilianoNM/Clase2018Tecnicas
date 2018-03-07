@@ -1,0 +1,5 @@
+Se tiene una lista en la que se han introducido pedidos segun el orden de llegada, por lo que puede haber pedidos del mismo articulo. Se pide escribir una funcion que , dada una lista como la anteirmente descrita, devuelva un unico elemento por cada articulo, en el cual el campo Cant_Pedida tenga la suma de todas las cantidades pedidas de ese articulo. 
+
+No se puede utilizar estrucutras auxiliares , asi como tampoco estrucutas de control como while for , do/while 
+
+Class Pedidos 
