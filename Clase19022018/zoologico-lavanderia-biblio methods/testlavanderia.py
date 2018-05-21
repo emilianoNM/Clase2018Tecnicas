@@ -1,0 +1,43 @@
+print("") 
+import zoologico
+
+print ("A continuacion los tipos de productos de limpieza que hay en la lavanderia.")
+print("") 
+#1
+Animal1=zoologico.articulo1("Gorila","Cafe","Pelaje grueso y brazos grandes")
+Animal1.Truco1("ladrar","Volar","Nadar","Correr")
+Animal1.Truco2("comer")
+Animal1.Truco3("bostezar")
+print("Animal:",Animal1.nombre)
+print("color:",Animal1.color)
+print("Caracteristica:",Animal1.crc)
+print("3 acciones que el",Animal1.nombre,"puede hacer perfectamente:""\n",Animal1.mastrucos[2],"\n",*Animal1.comer,"\n",*Animal1.bostezar)
+print("") 
+#2
+Animal2=zoologico.articulo2("Leon","Amarillo","Melena grande y colmillos afilados")
+print("Animal:",Animal2.nombre)
+print("color:",Animal2.color)
+print("Caracteristica:",Animal2.crc)
+print("3 acciones que el",Animal1.nombre,"puede hacer perfectamente:""\n",Animal1.mastrucos[2],"\n",*Animal1.comer,"\n",*Animal1.bostezar)
+print("") 
+#3
+Animal3=zoologico.articulo3("Oso","Cafe","Pelaje grueso y patas grandes")
+print("Animal:",Animal3.nombre)
+print("color:",Animal3.color)
+print("Caracteristica:",Animal3.crc)
+print("3 acciones que el",Animal1.nombre,"puede hacer perfectamente:","\n",*Animal1.comer,"\n",*Animal1.bostezar,"\n",Animal1.mastrucos[2])
+print("") 
+#4
+Animal4=zoologico.articulo4("Hipopotamo","Gris","Cuerpo y colmillos grandes")
+print("Animal:",Animal4.nombre)
+print("color:",Animal4.color)
+print("Caracteristica:",Animal4.crc)
+print("3 acciones que el",Animal1.nombre,"puede hacer perfectamente:""\n",Animal1.mastrucos[3],"\n",*Animal1.comer,"\n",*Animal1.bostezar)
+print("") 
+#5
+Animal5=zoologico.articulo5("Rana","Verde","pequeña y escurridiza")
+print("Animal:",Animal5.nombre)
+print("color:",Animal5.color)
+print("Caracteristica:",Animal5.crc)
+print("3 acciones que el",Animal1.nombre,"puede hacer perfectamente:""\n",Animal1.mastrucos[3],"\n",*Animal1.comer,"\n",*Animal1.bostezar)
+print("") 
