@@ -1,4 +1,6 @@
 import math
+from sympy import *
+from sympy import solve
 
 def resolver(destino, caballos):
 
