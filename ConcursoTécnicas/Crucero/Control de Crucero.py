@@ -41,7 +41,7 @@ def obtener_entrada(lines):
             otros -= 1
 
             if otros == 0:
-                velocidad = resolver(destino, caballos)
+                velocidad = solve(destino, caballos)
                 caso_nr += 1
                 salida.append("Caso #{}: {}\n".format(caso_nr, velocidad))
                 caballos = []
