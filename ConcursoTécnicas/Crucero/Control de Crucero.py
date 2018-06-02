@@ -1,6 +1,5 @@
 import math
-from sympy import *
-from sympy import solve
+
 
 def resolver(destino, caballos):
 
@@ -41,7 +40,7 @@ def obtener_entrada(lines):
             otros -= 1
 
             if otros == 0:
-                velocidad = solve(destino, caballos)
+                velocidad = resolver(destino, caballos)
                 caso_nr += 1
                 salida.append("Caso #{}: {}\n".format(caso_nr, velocidad))
                 caballos = []
