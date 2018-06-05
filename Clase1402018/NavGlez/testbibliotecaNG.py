@@ -1,0 +1,25 @@
+import bibliotecaNG
+
+libro1=bibliotecaNG.Historia("Enigmas y misterios de la Segunda Guerra Mundial","Jesus Hernandez","NowTilus",2005,239)
+print ("Titulo: ",libro1.titulo)
+print("Autor: ",libro1.autor)
+print("Editorial: ",libro1.editorial)
+print("Ano de publicacion",libro1.publicacion)
+print("No.Paginas",libro1.paginas)
+print("")
+
+libro2=bibliotecaNG.Biologia("Genetica: Un enfoque conceptual", "Benjamin A. Pierce", "PANAMERICANA",2008,829)
+print ("Titulo: ",libro2.titulo)
+print("Autor: ",libro2.autor)
+print("Editorial: ",libro2.editorial)
+print("Ano de publicacion",libro2.publicacion)
+print("No.Paginas: ",libro2.paginas)
+print("")
+
+libro3=bibliotecaNG.Fisica("Termodinamica","Yunes A. Cengel","McGrawHill",2012,1041)
+print ("Titulo: ",libro3.titulo)
+print("Autor: ",libro3.autor)
+print("Editorial: ",libro3.editorial)
+print("Ano de publicacion",libro3.publicacion)
+print("No.Paginas",libro3.paginas)
+print("")
