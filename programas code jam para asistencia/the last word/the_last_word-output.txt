@@ -1,0 +1,42 @@
+Caso #1: 2 6 8
+Caso #2: 3 5 7
+Caso #3: 3 6 9
+Caso #4: 2 3
+Caso #5: 7 8 9
+Caso #6: 2 9 10
+Caso #7: 6 9
+Caso #8: 3 8 9
+Caso #9: 7 10
+Caso #10: 2 7 8
+Caso #11: 8 9 10
+Caso #12: 6 7 10
+Caso #13: 2 4 5
+Caso #14: 3 6 7
+Caso #15: 6 7 8
+Caso #16: 3 6
+Caso #17: 2 5
+Caso #18: 7 8 10
+Caso #19: 2 4 9
+Caso #20: 4 10
+Caso #21: 3 4 7
+Caso #22: 2 6 10
+Caso #23: 2 8 9
+Caso #24: 3 7
+Caso #25: 2 4 8
+Caso #26: 3 10
+Caso #27: 3 9
+Caso #28: 5 9 10
+Caso #29: 8 9
+Caso #30: 4 6 7
+Caso #31: 4 5 7
+Caso #32: 5 8 10
+Caso #33: 2 7 10
+Caso #34: 2 5 9
+Caso #35: 3 5 6
+Caso #36: 6 8 9
+Caso #37: 3 4 8
+Caso #38: 3 8
+Caso #39: 2 7 9
+Caso #40: 2 5 10
+Caso #41: 2 7
+Caso #42: 3 4 5
